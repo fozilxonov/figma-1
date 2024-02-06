@@ -1,0 +1,111 @@
+.navbar {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    background: var(--Tint-blue, #1C1E53);
+
+
+
+}
+
+.navbar__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    .navbar__menu {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+
+        @media screen and (max-width:895px) {
+            gap: 15px;
+        }
+
+
+
+        & li {
+            color: #BBBBCB;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px;
+            /* 175% */
+            transition: 0.5;
+        }
+
+
+
+
+        .active {
+            color: var(--White, #FFF);
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px;
+            /* 175% */
+            transition: 0.5;
+        }
+
+
+
+
+    }
+
+    .navbar__main {
+        display: flex;
+        align-items: center;
+        gap: 48px;
+
+        @media screen and (max-width:895px) {
+            gap: 15px;
+        }
+
+        .navbar__btn {
+            color: var(--White, #FFF);
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px;
+            /* 175% */
+            padding: 16px 48px;
+            border-radius: 41px;
+            border: 2px solid rgba(244, 246, 252, 0.20);
+            background: none;
+            transition: 0.4s;
+        }
+
+        .navbar__btn:hover {
+            color: #000;
+            background-color: #fff;
+        }
+    }
+}
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+
+@media screen and (max-width:800px) {
+    .navbar__menu {
+        position: fixed;
+        top: 90px;
+        right: -100%;
+        flex-direction: column;
+        height: calc(100vh - 90px);
+        width: 40%;
+        background-color: #1C1E53;
+    }
+    
+
+    .menu-icon {
+        display: block;
+    }
+}

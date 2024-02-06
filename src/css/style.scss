@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+body {
+    // background-color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@import "__navbar.scss";
+@import "__header.scss";
+@import "__focus.scss";
+@import "__process.scss";
+@import "__mission.scss";
+@import "__benefit.scss";
+@import "__icons.scss";
+@import "__meet.scss";
+@import "__footer.scss";
+@import "__final.scss";

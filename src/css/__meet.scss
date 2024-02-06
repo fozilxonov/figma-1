@@ -1,0 +1,27 @@
+.meet {
+    margin-top: 100px;
+    background: var(--Grey, #F4F6FC);
+    padding-top: 100px;
+    padding-bottom: 128px;
+
+    .meet__sub {
+        color: var(--Dark-blue, #282938);
+        text-align: center;
+
+        /* Heading 2 */
+        font-family: Poppins;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 64px;
+        /* 133.333% */
+    }
+}
+
+.meet__row {
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}

@@ -1,0 +1,19 @@
+
+.icons {
+    margin-top: 48px;
+}
+
+.icon__content {
+    display: flex;
+
+    justify-content: center;
+    gap: 65px;
+
+    & img {
+        opacity: 0.85;
+    }
+
+    & :nth-child(1) {
+        opacity: 1;
+    }
+}

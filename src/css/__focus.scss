@@ -1,0 +1,56 @@
+.focus {
+    margin-top: 128px;
+
+    // background: #F4F5F5;
+}
+
+.focus__row {
+    background: #F4F5F5;
+    width: 1280px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 61px;
+}
+
+.focus__col {
+    .focus__sub {
+        color: var(--Dark-blue, #282938);
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        /* 175% */
+    }
+
+    .focus__title {
+        width: 515px;
+        margin-top: 8px;
+        color: var(--Dark-blue, #282938);
+
+        /* Heading 3 */
+        font-family: Poppins;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px;
+        /* 147.368% */
+    }
+
+    .focus__text {
+        width: 515px;
+        margin-top: 16px;
+        color: var(--Dark-blue, #282938);
+        opacity: 0.9;
+        /* Paragraph */
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        /* 175% */
+    }
+}

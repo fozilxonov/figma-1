@@ -1,0 +1,56 @@
+.benefit {
+    margin-top: 128px;
+
+    .benefit__sub {
+        margin: 0 auto;
+        width: 630px;
+        color: var(--Dark-blue, #282938);
+        text-align: center;
+        /* Heading 2 */
+        font-family: Poppins;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 64px;
+        /* 133.333% */
+    }
+}
+
+.benefit__row {
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.benefit__card {
+    width: 405px;
+    background: var(--Grey, #F4F6FC);
+    padding: 50px 32px 0 48px;
+
+    .benefit__title {
+        color: var(--Dark-blue, #282938);
+        margin-top: 26px;
+        /* Heading 6 */
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px;
+        /* 150% */
+    }
+
+    .benefit__text {
+        color: var(--Dark-blue, #282938);
+        margin-top: 12px;
+        /* Paragraph */
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        /* 175% */
+        opacity: 0.9;
+    }
+}
